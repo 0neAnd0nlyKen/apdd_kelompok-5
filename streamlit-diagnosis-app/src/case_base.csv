@@ -1,0 +1,10 @@
+The file /streamlit-diagnosis-app/streamlit-diagnosis-app/src/data/case_base.csv is intended to contain historical case data used for training the model and making predictions. Below is a sample structure for the CSV file, which includes headers and some example data. You can modify the data as needed based on your actual dataset.
+
+Patient_ID,Age,Gender,Heart_Rate_bpm,Body_Temperature_C,Oxygen_Saturation_%,Body ache,Headache,Shortness of breath,Cough,Fatigue,Sore throat,Runny nose,Fever,Systolic_BP,Average_BP,Diagnosis,Treatment_Plan,Severity
+1,25,Male,72,98.6,98,1,0,0,0,1,0,0,1,120,80,Flu,Rest and hydration,Moderate
+2,30,Female,85,99.1,95,0,1,1,1,0,1,0,1,130,85,COVID-19,Isolation and monitoring,Severe
+3,45,Male,78,97.5,97,1,1,0,0,1,0,1,1,125,82,Common Cold,Rest and hydration,Mild
+4,60,Female,90,100.2,94,0,0,1,1,0,1,1,1,140,90,Pneumonia,Antibiotics,Severe
+5,35,Male,70,98.0,99,1,0,0,0,0,0,0,1,118,78,Allergy,Antihistamines,Mild
+
+This structure includes various symptoms, vital signs, diagnosis, treatment plans, and severity levels for different cases. You can expand or modify the data as necessary to fit your application's requirements.
