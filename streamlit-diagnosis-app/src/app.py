@@ -7,7 +7,6 @@ def main():
 
     st.header("Input Symptoms and Vital Signs")
     
-    # Input fields for symptoms
     body_ache = st.checkbox("Body ache")
     headache = st.checkbox("Headache")
     shortness_of_breath = st.checkbox("Shortness of breath")
@@ -17,7 +16,6 @@ def main():
     runny_nose = st.checkbox("Runny nose")
     fever = st.checkbox("Fever")
 
-    # Input fields for vital signs
     heart_rate = st.number_input("Heart Rate (bpm)", min_value=0)
     body_temperature = st.number_input("Body Temperature (°C)", min_value=0.0)
     oxygen_saturation = st.number_input("Oxygen Saturation (%)", min_value=0.0)
@@ -25,7 +23,6 @@ def main():
     blood_pressure = st.text_input("Blood Pressure (mmHg, e.g., 120/80)")
 
     if st.button("Diagnose"):
-        # Prepare input data
         input_data = {
             'Body ache': body_ache,
             'Headache': headache,
