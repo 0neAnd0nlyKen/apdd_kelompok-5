@@ -8,6 +8,9 @@
 
 This project aims to study popular Steam games and analyze relevant factors by examining SteamDB data.
 
+![SteamDB Page](public/steamdb%20page.jpg)
+
+
 ### Analysis Done in Google Colab
 ![Google Colab Screenshot](public/g%20colab%20screenshot.png)
 
@@ -21,7 +24,6 @@ Index(['followers', 'Gain', 'user-reviews',
       dtype='object')
 ```
 
-![SteamDB Page](public/steamdb%20page.jpg)
 
 ### Cleaned Features Correlation Heatmap
 ![Cleaned Features Correlation Heatmap](public/cleaned%20features%20corelation%20heatmap.png)
